@@ -1,0 +1,11 @@
+.swiper-container {
+  width: 100% !important;
+}
+
+.swiper-slide {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: red !important;
+  height: 200px !important;
+}
