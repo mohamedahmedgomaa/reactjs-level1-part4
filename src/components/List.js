@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../App.css';
 const List = ({children, items}) => {
     const child = items.map(el => React.cloneElement(children, {item: el, key:el.id}))
     return (
